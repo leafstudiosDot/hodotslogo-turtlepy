@@ -40,4 +40,18 @@ for i in range(4):
 green.end_fill()
 green.hideturtle()
 
+yellow = turtle.Turtle()
+
+yellow.penup()
+yellow.goto(100, -100)
+yellow.pendown()
+yellow.color('#fff104')
+yellow.fillcolor('#fff104')
+yellow.begin_fill()
+for i in range(4):
+    yellow.forward(100)
+    yellow.right(90)
+yellow.end_fill()
+yellow.hideturtle()
+
 turtle.done()
