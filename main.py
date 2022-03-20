@@ -10,6 +10,7 @@ for i in range(4):
     blue.forward(300)
     blue.right(90)
 blue.end_fill()
+blue.hideturtle()
 
 red = turtle.Turtle()
 
@@ -23,5 +24,20 @@ for i in range(4):
     red.forward(220)
     red.right(90)
 red.end_fill()
+red.hideturtle()
+
+green = turtle.Turtle()
+
+green.penup()
+green.goto(80, -80)
+green.pendown()
+green.color('#22b14c')
+green.fillcolor('#22b14c')
+green.begin_fill()
+for i in range(4):
+    green.forward(140)
+    green.right(90)
+green.end_fill()
+green.hideturtle()
 
 turtle.done()
